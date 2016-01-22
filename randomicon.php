@@ -1,7 +1,7 @@
 <?php
 
 setImageHeaders();
-returnImageData(chooseRandomPic('icons'));
+returnImageData(chooseRandomPic('iconos'));
 
 function chooseRandomPic($dir = '.'){
     $files = glob($dir . '/*.*');
