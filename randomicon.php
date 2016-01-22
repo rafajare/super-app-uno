@@ -9,11 +9,11 @@ function chooseRandomPic($dir = '.'){
     return $files[$file];
 }
 
-function setImageHeaders(){
+function ponCabeceraImagen(){
 	header('Content-Type: image/jpeg');
 }
 
-function returnImageData($image){
+function devuelveDatosImagen($image){
     readfile($image);
 }
 
